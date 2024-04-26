@@ -1,10 +1,33 @@
-/* æ¨™æº–å…¥å‡ºåŠ›ã®ãƒ˜ãƒƒãƒ€ ãƒ•ã‚¡ã‚¤ãƒ«ã‚’ã‚¤ãƒ³ã‚¯ãƒ«ãƒ¼ãƒ‰ */
+/* •W€“üo—Í‚Ìƒwƒbƒ_ ƒtƒ@ƒCƒ‹‚ğƒCƒ“ƒNƒ‹[ƒh */
 #include <stdio.h>
 
-/* ãƒ¡ã‚¤ãƒ³é–¢æ•° */
+/* ƒƒCƒ“ŠÖ” */
 int main(void)
 {
-/* "Hello World\n" ã¨è¡¨ç¤ºã™ã‚‹ã€‚"\n" ã¯æ”¹è¡Œæ–‡å­—ã‚’ç¤ºã™ */
+	/* "Hello World\n" ‚Æ•\¦‚·‚éB"\n" ‚Í‰üs•¶š‚ğ¦‚· */
 	printf("Hello World\n");
+
+	/* 	%d ®”‚ğ10i‚Åo—Í‚·‚é */
+	printf("5 + 3 = %d\n", 5 + 3);
+
+	/* intŒ^‚Ì•Ï”éŒ¾ */
+	int x;
+	x = 5;
+	printf("x = %d\n", x);
+
+	/* getchar 1•¶š‚Ì“ü—Í‚ğ‘Ò‹@ */
+	int c;
+	c = getchar();
+	printf("%c(%d)\n", c, c);
+
+	if(c == 'a'){
+		printf("it is a.\n");
+	}
+	printf("end of program\n");
+
+	int i;
+	for(i = 1; i <= 100; i++){
+		printf("%d‚Ì2æ‚Í%d‚Å‚·\n", i, i * i);
+	}
 	return 0;
 }
