@@ -25,14 +25,14 @@ This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 ```
 
-### コンパイルと実行
+## コンパイルと実行
 
-#### 1.コンパイル
+### 1.コンパイル
 ```
 $ gcc -o hello1 hello1.c
 ```
 
-#### 2.実行
+### 2.実行
 ```
 $ hello1
 Hello World
